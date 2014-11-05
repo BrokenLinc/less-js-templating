@@ -1,0 +1,7 @@
+@import "mixins.less";
+
+@isUrgent: false;
+
+h1 {
+	.conditionalColor(@isUrgent, red, black);
+}

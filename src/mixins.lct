@@ -1,0 +1,3 @@
+.conditionalColor(@condition, @color1, @color2) {
+	color: <%= trueFalse('@{condition}', '"@{color1}"', '"@{color2}"') %>;
+}
